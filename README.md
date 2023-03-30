@@ -5,3 +5,6 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 Aprende Python - Curso de Python desde Cero [FreeCodeCamp](https://www.youtube.com/watch?v=DLikpfc64cA).
 Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/). <br>
 Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python)
+
+## Libros online
+[El libro de Python](https://ellibrodepython.com/) <br>
