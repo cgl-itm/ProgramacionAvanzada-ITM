@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 
 # Load the data
-URL = 'https://raw.githubusercontent.com/daczarne/udemy_dash_course/master/07_interactive_components/mpg.csv'
+URL = 'https://raw.githubusercontent.com/cgl-itm/ProgramacionAvanzada-ITM/main/Dash/mpg.csv'
 df = pd.read_csv(URL, na_values = {'horsepower':'?'})
 
 features = df.columns

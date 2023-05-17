@@ -5,10 +5,9 @@ import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 import pandas as pd
 import base64
-import os
 
 # Load the data
-df = pd.read_csv("https://raw.githubusercontent.com/daczarne/udemy_dash_course/master/07_interactive_components/wheels.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/cgl-itm/ProgramacionAvanzada-ITM/main/Dash/wheels.csv")
 
 def encode_image(image_file):
   encoded = base64.b64encode(open(image_file, "rb").read())
