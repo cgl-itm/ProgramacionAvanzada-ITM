@@ -1,0 +1,82 @@
+import dash
+from dash import html
+from dash import dcc
+import plotly.graph_objs as go
+from dash.dependencies import Input, Output
+import pandas as pd
+import base64
+import os
+
+# Load the data
+df = pd.read_csv("https://raw.githubusercontent.com/daczarne/udemy_dash_course/master/07_interactive_components/wheels.csv")
+
+def encode_image(image_file):
+  encoded = base64.b64encode(open(image_file, "rb").read())
+  return "data:image/png;base64,{}".format(encoded.decode())
+
+# Instanciate the app
+app = dash.Dash()
+
+# Delfine the layout
+app.layout = html.Div(
+  children = [
+    dcc.RadioItems(
+      id = "wheels",
+      options = [{"label": str(i), "value": i} for i in df["wheels"].unique()],
+      value = 1
+    ),
+    html.Div(
+      id = "wheels-output"
+    ),
+    html.Hr(),
+    dcc.RadioItems(
+      id = "colors",
+      options = [{"label": str(i), "value": i} for i in df["color"].unique()],
+      value = "blue"
+    ),
+    html.Div(
+      id = "colors-output"
+    ),
+    html.Hr(),
+    html.Img(
+      id = "display-image",
+      src = "children",
+      height = 300
+    )
+  ],
+  style = dict(
+    fontfamily = "helvatica",
+    fontsize = 18
+  )
+)
+
+# Build the callbacks
+@app.callback(
+  Output(component_id = "wheels-output", component_property = "children"),
+  Input(component_id = "wheels", component_property = "value")
+)
+def callback_a(wheels):
+  return f"You chose {wheels}"
+
+@app.callback(
+  Output(component_id = "colors-output", component_property = "children"),
+  Input(component_id = "colors", component_property = "value")
+)
+def callback_b(colors):
+  return f"You chose {colors}"
+
+@app.callback(
+  Output(component_id = "display-image", component_property = "src"),
+  Input(component_id = "wheels", component_property = "value"),
+  Input(component_id = "colors", component_property = "value")
+)
+def callback_image(wheels, color):
+  path = "g:\\Dash\\images\\" #Poner la direccion en su computador local
+  encoded = encode_image(
+    path + df[(df["wheels"] == wheels) & (df["color"] == color)]["image"].values[0]
+  )
+  return encoded
+
+# Run the app
+if __name__ == "__main__":
+  app.run_server(debug = True)
