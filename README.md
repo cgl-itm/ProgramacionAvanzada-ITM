@@ -8,3 +8,4 @@ Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python)
 
 ## Libros online
 [El libro de Python](https://ellibrodepython.com/) <br>
+[Python Programming and Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
