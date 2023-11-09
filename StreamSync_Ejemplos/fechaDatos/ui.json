@@ -1,0 +1,130 @@
+{
+    "metadata": {
+        "streamsync_version": "0.2.8"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "parentId": null,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact",
+                "emptinessColor": "#e9eef1"
+            },
+            "parentId": "root",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "@{my_app.title}"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "ydawnem6t4lpt227": {
+            "id": "ydawnem6t4lpt227",
+            "type": "section",
+            "content": {
+                "title": "Section Title",
+                "snapMode": "no"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "uk3igtw99lf6omse": {
+            "id": "uk3igtw99lf6omse",
+            "type": "dateinput",
+            "content": {
+                "label": "Fecha Inicial"
+            },
+            "parentId": "qk9f43s1o0z829mz",
+            "position": 0,
+            "handlers": {
+                "ss-date-change": "update"
+            },
+            "binding": {
+                "eventType": "ss-date-change",
+                "stateRef": "fecha_ini"
+            },
+            "visible": true
+        },
+        "77af8ejybyh9d9dv": {
+            "id": "77af8ejybyh9d9dv",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{grafico}"
+            },
+            "parentId": "ydawnem6t4lpt227",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "g3tu13usbdcemhg7": {
+            "id": "g3tu13usbdcemhg7",
+            "type": "columns",
+            "content": {},
+            "parentId": "ydawnem6t4lpt227",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "qk9f43s1o0z829mz": {
+            "id": "qk9f43s1o0z829mz",
+            "type": "column",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "center"
+            },
+            "parentId": "g3tu13usbdcemhg7",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "pmvr70dnegkgy6j1": {
+            "id": "pmvr70dnegkgy6j1",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "g3tu13usbdcemhg7",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "kpl53t2tubvfydgo": {
+            "id": "kpl53t2tubvfydgo",
+            "type": "textinput",
+            "content": {
+                "label": "Fecha final"
+            },
+            "parentId": "pmvr70dnegkgy6j1",
+            "position": 0,
+            "handlers": {
+                "ss-change-finish": "update"
+            },
+            "binding": {
+                "eventType": "ss-change",
+                "stateRef": "fecha_fin"
+            },
+            "visible": true
+        }
+    }
+}
