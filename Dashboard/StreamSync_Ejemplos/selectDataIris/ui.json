@@ -1,0 +1,175 @@
+{
+    "metadata": {
+        "streamsync_version": "0.2.8"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "parentId": null,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact",
+                "emptinessColor": "#e9eef1"
+            },
+            "parentId": "root",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "@{my_app.title}"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "7ueoc25fpznx2xdu": {
+            "id": "7ueoc25fpznx2xdu",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{fig}"
+            },
+            "parentId": "waf7kqjh45gwc47y",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "1271v22wcnc0tutu": {
+            "id": "1271v22wcnc0tutu",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Atributo",
+                "options": "{\n  \"sepal.length\": \"Longitud Sepalo\",\n  \"sepal.width\": \"Ancho Sepalo\",\n  \"petal.length\": \"Longitud Petalo\",\n  \"petal.width\": \"Ancho Petalo\"\n}"
+            },
+            "parentId": "pbikmkr45t3dypk4",
+            "position": 0,
+            "handlers": {
+                "ss-option-change": "update_graph"
+            },
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "atributo"
+            },
+            "visible": true
+        },
+        "nuqx93snvuugp1j6": {
+            "id": "nuqx93snvuugp1j6",
+            "type": "section",
+            "content": {
+                "title": "Section Title",
+                "snapMode": "no"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "hamtxo1ttq09pemc": {
+            "id": "hamtxo1ttq09pemc",
+            "type": "columns",
+            "content": {},
+            "parentId": "nuqx93snvuugp1j6",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "szhxjhem5e4fmngh": {
+            "id": "szhxjhem5e4fmngh",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "hamtxo1ttq09pemc",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "z1foo53pq9jgchfp": {
+            "id": "z1foo53pq9jgchfp",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "parentId": "hamtxo1ttq09pemc",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "dmbulgr58juwnobu": {
+            "id": "dmbulgr58juwnobu",
+            "type": "checkboxinput",
+            "content": {
+                "label": "Clase",
+                "options": "{\n  \"Setosa\": \"Setosa\",\n  \"Versicolor\": \"Versicolor\",\n  \"Virginica\": \"Virginica\"\n}"
+            },
+            "parentId": "pbikmkr45t3dypk4",
+            "position": 1,
+            "handlers": {
+                "ss-options-change": "update_graph"
+            },
+            "binding": {
+                "eventType": "ss-options-change",
+                "stateRef": "SeleccionClase"
+            },
+            "visible": true
+        },
+        "yeb24960r0h17b7h": {
+            "id": "yeb24960r0h17b7h",
+            "type": "section",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {
+                "title": "Section Title",
+                "snapMode": "no"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "wdj7vz9u8rptfxu8": {
+            "id": "wdj7vz9u8rptfxu8",
+            "type": "columns",
+            "parentId": "yeb24960r0h17b7h",
+            "content": {},
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "waf7kqjh45gwc47y": {
+            "id": "waf7kqjh45gwc47y",
+            "type": "column",
+            "parentId": "wdj7vz9u8rptfxu8",
+            "content": {
+                "width": "3"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "pbikmkr45t3dypk4": {
+            "id": "pbikmkr45t3dypk4",
+            "type": "column",
+            "parentId": "wdj7vz9u8rptfxu8",
+            "content": {
+                "width": "1",
+                "horizontalAlignment": "left"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        }
+    }
+}
