@@ -15,6 +15,11 @@ Aprende Python - Curso de Python desde Cero [FreeCodeCamp](https://www.youtube.c
 Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/). <br>
 Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python)
 
+## Ejercicios en Python
+[Aprende con Alf](https://aprendeconalf.es/docencia/python/ejercicios/) <br>
+[Diario Python](https://pythondiario.com/ejercicios-de-programacion-python) <br>
+
 ## Libros online
 [El libro de Python](https://ellibrodepython.com/) <br>
-[Python Programming and Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+[Python Programming and Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)<br>
+[Python para principiantes](https://uniwebsidad.com/libros/python) 
