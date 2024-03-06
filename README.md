@@ -4,7 +4,8 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 # Calendario
 | Semana |                             Tema                              |                  Material practico |
 | :-----------: | :--------------------------------------------------------------: |:----------------------------------------------------------------------------------------------------------------------------: | 
-|      01       |  Introducción, Definición de Variables, Condicionales           |             | 
+|      01       |  Introducción, Definición de Variables, Condicionales           |    [Introduccion](https://github.com/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/01_IntroduccionPython.ipynb) <a target="_blank" href="https://github.com/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/01_IntroduccionPython.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>        | 
 |      02       |  Ciclo While, Ciclo For, Listas y Tuplas    |  |
 |      03       |  Diccionarios y Funciones   |      | 
 |      04       |  Clase taller y Examen   |      | 
