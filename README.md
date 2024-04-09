@@ -13,8 +13,15 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 ## Cursos básicos de Python
 Aprende Python - Curso de Python desde Cero [FreeCodeCamp](https://www.youtube.com/watch?v=DLikpfc64cA).
 Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/). <br>
-Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) <br>
-[Numpy Tutorial for Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
+
+## Tutoriales sobre Numpy
+[Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) <br>
+[Nunpy Tutorial - Youtube](https://www.youtube.com/watch?v=rN0TREj8G7U)  <br>
+[Introduction Scipy Numpy](https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf) Documento creado por el profesor M. Scott Shell. <br>
+[Intorudccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. <br>
+
+
 
 ## Ejercicios en Python
 [Aprende con Alf](https://aprendeconalf.es/docencia/python/ejercicios/) <br>
