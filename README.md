@@ -19,7 +19,7 @@ Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python)
 [Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) <br>
 [Numpy Tutorial - Youtube](https://www.youtube.com/watch?v=rN0TREj8G7U)  <br>
 [Introduction Scipy Numpy](https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf) Documento creado por el profesor M. Scott Shell. <br>
-[Intorudccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. <br>
+[Introduccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. <br>
 
 
 
