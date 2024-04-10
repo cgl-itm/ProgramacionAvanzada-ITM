@@ -22,6 +22,7 @@ Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python)
 [Introduccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. <br>
 
 ## Tutoriales Pandas
+[Learn Pandas - Kaggle](https://www.kaggle.com/learn/pandas)  <br>
 [Pandas GroupBy - realpython](https://realpython.com/pandas-groupby/) <br>
 
 ## Ejercicios en Python
