@@ -250,6 +250,61 @@
             "parentId": "nfvd88x7eq3r6sjo",
             "handlers": {},
             "visible": true
+        },
+        "z3khu235jwrog9tx": {
+            "id": "z3khu235jwrog9tx",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figSurvAge}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "0hz921opf1w9dype",
+            "handlers": {},
+            "visible": true
+        },
+        "ptoqia0kxp8wjw5z": {
+            "id": "ptoqia0kxp8wjw5z",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figSibSp}"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "0hz921opf1w9dype",
+            "handlers": {},
+            "visible": true
+        },
+        "vi6tet18kj2b97zf": {
+            "id": "vi6tet18kj2b97zf",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figEmbarked}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "hz97ji2jyszvwai4",
+            "handlers": {},
+            "visible": true
+        },
+        "w0n93z3jbeh5v7j5": {
+            "id": "w0n93z3jbeh5v7j5",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Sex",
+                "options": "{\n  \"female\": \"female\",\n  \"male\": \"male\",\n  \"all\": \"all\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 5,
+            "parentId": "0d05bc9f-1655-4d0b-bc9b-c2f4c71a5117",
+            "handlers": {
+                "ss-option-change": "update"
+            },
+            "visible": true,
+            "binding": {
+                "eventType": "ss-option-change",
+                "stateRef": "sex"
+            }
         }
     }
 }
