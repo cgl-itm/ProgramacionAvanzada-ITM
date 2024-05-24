@@ -1,6 +1,7 @@
 # GitHub
 * [Create Personal access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-
+* [Solucionar conflictos](https://www.datacamp.com/tutorial/how-to-resolve-merge-conflicts-in-git-tutorial)
+  
 # Instalación de Git
 * Ir al enlace https://git-scm.com/, y descargar la versión del instalador para su sistema operativo.
 
