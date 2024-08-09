@@ -11,9 +11,10 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 |      05       |  Programación Orientada a Objetos   |  [Programación Orientada a Objetos](https://github.com/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/06_OOP_ProgOrientadaObj.ipynb) <a target="_blank" href="https://colab.research.google.com/github/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/06_OOP_ProgOrientadaObj.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>  | 
 
 ## Cursos básicos de Python
-Aprende Python - Curso de Python desde Cero [FreeCodeCamp](https://www.youtube.com/watch?v=DLikpfc64cA).
-Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/). <br>
-Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
+* Aprende Python - Curso de Python desde Cero [FreeCodeCamp](https://www.youtube.com/watch?v=DLikpfc64cA).
+* Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/).
+* Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
+* Logica de Programacion - [MoureDev](https://www.youtube.com/watch?v=TdITcVD64zI)
 
 ## Tutoriales sobre Numpy
 [Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) <br>
