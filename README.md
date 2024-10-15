@@ -19,10 +19,11 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 * Logica de Programacion - [MoureDev](https://www.youtube.com/watch?v=TdITcVD64zI)
 
 ## Tutoriales sobre Numpy
-[Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) <br>
-[Numpy Tutorial - Youtube](https://www.youtube.com/watch?v=rN0TREj8G7U)  <br>
-[Introduction Scipy Numpy](https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf) Documento creado por el profesor M. Scott Shell. <br>
-[Introduccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. <br>
+* [Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) 
+* [Numpy Tutorial - Youtube](https://www.youtube.com/watch?v=rN0TREj8G7U)  
+* [Introduction Scipy Numpy](https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf) Documento creado por el profesor M. Scott Shell.
+* [Introduccion a Numpy](https://www.tutorialspoint.com/numpy/numpy_introduction.htm) Pagina de Tutorialspoint. 
+* [CheatSheets](https://www.kaggle.com/discussions/getting-started/255139)
 
 ## Tutoriales Pandas
 [Learn Pandas - Kaggle](https://www.kaggle.com/learn/pandas)  <br>
