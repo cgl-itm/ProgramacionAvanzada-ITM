@@ -10,7 +10,13 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 |      04       |  Clase taller y Examen   |      | 
 |      05         |   Diccionarios y Funciones  |  [Diccionarios y Funciones](https://github.com/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/05_Diccionarios_funciones.ipynb) <a target="_blank" href="https://colab.research.google.com/github/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/05_Diccionarios_funciones.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>      |
 |      06       |  Programación Orientada a Objetos   |  [Programación Orientada a Objetos](https://github.com/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/06_OOP_ProgOrientadaObj.ipynb) <a target="_blank" href="https://colab.research.google.com/github/cgl-itm/ProgramacionAvanzada-ITM/blob/main/notebooks/06_OOP_ProgOrientadaObj.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>  | 
-|      07         |   Clase Taller y Examen  |      |
+|      07         |   Programacion Orientada a Objetos 2 y Decoradores  |      |
+|      08         |   Examen OOP |      |
+|      09         |   Numpy Matrices y Vectores  |      |
+|      10         |  Matplotlib   |      |
+|      11         |  Pandas   |      |
+|      12         |   Pandas 2  |      |
+|      13         |   Series de Tiempo con Pandas  |      |
 
 ## Cursos básicos de Python
 * Aprende Python - Curso de Python desde Cero [Curos 1](https://www.youtube.com/watch?v=DLikpfc64cA) y [Curso 2](https://www.youtube.com/watch?v=rfscVS0vtbw).
