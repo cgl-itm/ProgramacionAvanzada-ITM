@@ -17,6 +17,7 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 * Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/).
 * Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
 * Logica de Programacion - [MoureDev](https://www.youtube.com/watch?v=TdITcVD64zI)
+* [Fundamentos Python](https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL) Con certificado.
 
 ## Tutoriales sobre Numpy
 * [Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) 
