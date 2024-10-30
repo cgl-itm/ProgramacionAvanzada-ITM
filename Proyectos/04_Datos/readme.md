@@ -3,8 +3,9 @@
 02 - [London Weather Data](https://www.kaggle.com/datasets/emmanuelfwerr/london-weather-data) <br>
 03 - [Air quality data](https://www.kaggle.com/datasets/fedesoriano/air-quality-data-set) <br>
 04 - [Smoke Detection data](https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset) <br>
-05 - [Machine Failure](https://www.kaggle.com/datasets/umerrtx/machine-failure-prediction-using-sensor-data) <br>
-06 - [Room Occupancy](https://www.kaggle.com/datasets/kukuroo3/room-occupancy-detection-data-iot-sensor/data)
+05 - [Environmental Sensor](https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k) <br>
+06 - [Sensor Fault detection](https://www.kaggle.com/datasets/arashnic/sensor-fault-detection-data) <br>
+07 - [Home Sensor](https://www.kaggle.com/datasets/johntrunix/home-sensordata)
 # Tips
 Para convertir los numeros enteros de TimeStamp a fechas (date), emplear el siguiente comando de Pandas:
 ````
