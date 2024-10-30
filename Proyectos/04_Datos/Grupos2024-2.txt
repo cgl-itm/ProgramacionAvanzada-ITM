@@ -1,0 +1,5 @@
+John y Perdomo - Solar panel
+Cristian y John - Enviromental sensor
+Wilmar y Mieles - Sensor Fault detection
+Fuentes y Manco - Smoke Detection data
+Jose David y Luis Alberto - Home Sensor
