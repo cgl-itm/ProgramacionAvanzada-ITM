@@ -16,7 +16,8 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 |      10         |  Matplotlib   |      |
 |      11         |  Pandas   |      |
 |      12         |   Pandas 2  |      |
-|      13         |   Series de Tiempo con Pandas  |      |
+|      13         |   Series de Tiempo con Pandas. Dashboard Writer  |   [Writer App](https://dev.writer.com/framework/introduction)   |
+|      14         |   Ejercicios Writer  |      |
 
 ## Cursos básicos de Python
 * Aprende Python - Curso de Python desde Cero [Curos 1](https://www.youtube.com/watch?v=DLikpfc64cA) y [Curso 2](https://www.youtube.com/watch?v=rfscVS0vtbw).
