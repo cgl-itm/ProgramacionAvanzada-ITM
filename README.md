@@ -21,7 +21,7 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 
 ## Cursos básicos de Python
 * Aprende Python - Curso de Python desde Cero [Curos 1](https://www.youtube.com/watch?v=DLikpfc64cA) y [Curso 2](https://www.youtube.com/watch?v=rfscVS0vtbw).
-* Para mas cursos en [FreeCodeCamp](https://www.freecodecamp.org/espanol/).
+* [Python for Everybody] con certificado gratis. Para mas cursos certificados en [FreeCodeCamp](https://www.freecodecamp.org/espanol/).
 * Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
 * Logica de Programacion - [MoureDev](https://www.youtube.com/watch?v=TdITcVD64zI)
 * [Fundamentos Python](https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL) Con certificado gratis.
