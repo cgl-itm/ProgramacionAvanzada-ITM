@@ -1,0 +1,283 @@
+{
+    "metadata": {
+        "writer_version": "0.7.5"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "handlers": {}
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "root",
+            "handlers": {}
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "Titanic"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {}
+        },
+        "28d3885b-0fb8-4d41-97c6-978540015431": {
+            "id": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "type": "section",
+            "content": {
+                "title": "",
+                "containerShadow": "0px 4px 11px -12px #000000"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {}
+        },
+        "d4a5e62c-c6fe-49c4-80d4-33862af8727d": {
+            "id": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "handlers": {}
+        },
+        "f3777e75-3659-4d44-8ef7-aeec0d06855b": {
+            "id": "f3777e75-3659-4d44-8ef7-aeec0d06855b",
+            "type": "column",
+            "content": {
+                "title": "",
+                "width": "1",
+                "contentHAlign": "center",
+                "contentVAlign": "center"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "handlers": {}
+        },
+        "c2519671-9ce7-44e7-ba4e-b0efda9cb20e": {
+            "id": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "handlers": {}
+        },
+        "bbq3k7vyyzlfgfe0": {
+            "id": "bbq3k7vyyzlfgfe0",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "handlers": {}
+        },
+        "7o5ruos7cvrwooxo": {
+            "id": "7o5ruos7cvrwooxo",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "handlers": {}
+        },
+        "qi0jvmr4hoh1i4x6": {
+            "id": "qi0jvmr4hoh1i4x6",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "7o5ruos7cvrwooxo",
+            "handlers": {}
+        },
+        "36edanh6ewp2tpg7": {
+            "id": "36edanh6ewp2tpg7",
+            "type": "horizontalstack",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "qi0jvmr4hoh1i4x6",
+            "handlers": {}
+        },
+        "uhqh4qbw37237ppx": {
+            "id": "uhqh4qbw37237ppx",
+            "type": "metric",
+            "content": {
+                "name": "Average Age",
+                "metricValue": "@{promedioEdad}",
+                "note": "+Pass"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {}
+        },
+        "tiwjfhor144yzji2": {
+            "id": "tiwjfhor144yzji2",
+            "type": "metric",
+            "content": {
+                "name": "Total Fare",
+                "note": "+Pass",
+                "metricValue": "@{totalFare}"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {}
+        },
+        "0ccy2t9oqp70jjbu": {
+            "id": "0ccy2t9oqp70jjbu",
+            "type": "metric",
+            "content": {
+                "name": "Average Fare",
+                "note": "+Pass",
+                "metricValue": "@{averageFare}"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {}
+        },
+        "rg2f1yjxano9sa8u": {
+            "id": "rg2f1yjxano9sa8u",
+            "type": "metric",
+            "content": {
+                "name": "Total Male Passangers",
+                "note": "+Pass",
+                "metricValue": "@{cantidadMale}"
+            },
+            "isCodeManaged": false,
+            "position": 3,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {}
+        },
+        "rqhogi1qrvxqv3v8": {
+            "id": "rqhogi1qrvxqv3v8",
+            "type": "metric",
+            "content": {
+                "name": "Total Female Passangers",
+                "note": "+Pass",
+                "metricValue": "@{cantidadFemale}"
+            },
+            "isCodeManaged": false,
+            "position": 4,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {}
+        },
+        "82fghr90mhgcd6q2": {
+            "id": "82fghr90mhgcd6q2",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Sex",
+                "options": "{\n  \"M\": \"Male\",\n  \"F\": \"Female\",\n  \"A\": \"All\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 5,
+            "parentId": "36edanh6ewp2tpg7",
+            "handlers": {},
+            "binding": {
+                "eventType": "wf-option-change",
+                "stateRef": "seleccion"
+            }
+        },
+        "canxuvbmu34jbn2x": {
+            "id": "canxuvbmu34jbn2x",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figDiedSex}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "handlers": {}
+        },
+        "u5x5ghs8xrf25ts1": {
+            "id": "u5x5ghs8xrf25ts1",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figSurSex}"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "handlers": {}
+        },
+        "qisze30kegryl9sl": {
+            "id": "qisze30kegryl9sl",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figClassSex}"
+            },
+            "isCodeManaged": false,
+            "position": 2,
+            "parentId": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "handlers": {}
+        },
+        "sx4oj7jn1dmseq1t": {
+            "id": "sx4oj7jn1dmseq1t",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figEmbar}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "bbq3k7vyyzlfgfe0",
+            "handlers": {}
+        },
+        "i5i025r3v4v9kk8o": {
+            "id": "i5i025r3v4v9kk8o",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figEmC}"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "bbq3k7vyyzlfgfe0",
+            "handlers": {}
+        },
+        "mo03qqhk22wu7tr8": {
+            "id": "mo03qqhk22wu7tr8",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figCountAge}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "f3777e75-3659-4d44-8ef7-aeec0d06855b",
+            "handlers": {}
+        },
+        "o81etbnkuzx5ifne": {
+            "id": "o81etbnkuzx5ifne",
+            "type": "plotlygraph",
+            "content": {
+                "spec": "@{figSiblings}"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "f3777e75-3659-4d44-8ef7-aeec0d06855b",
+            "handlers": {}
+        }
+    }
+}

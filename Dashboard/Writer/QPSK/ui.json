@@ -1,0 +1,99 @@
+{
+    "metadata": {
+        "writer_version": "0.7.5"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "handlers": {}
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "root",
+            "handlers": {}
+        },
+        "bebc5fe9-63a7-46a7-b0fa-62303555cfaf": {
+            "id": "bebc5fe9-63a7-46a7-b0fa-62303555cfaf",
+            "type": "header",
+            "content": {
+                "text": "QPSK"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {}
+        },
+        "28d3885b-0fb8-4d41-97c6-978540015431": {
+            "id": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "type": "section",
+            "content": {
+                "title": "",
+                "containerShadow": "0px 4px 11px -12px #000000"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "handlers": {}
+        },
+        "d4a5e62c-c6fe-49c4-80d4-33862af8727d": {
+            "id": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "handlers": {}
+        },
+        "c2519671-9ce7-44e7-ba4e-b0efda9cb20e": {
+            "id": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "d4a5e62c-c6fe-49c4-80d4-33862af8727d",
+            "handlers": {}
+        },
+        "uld6k8wv9cxfggen": {
+            "id": "uld6k8wv9cxfggen",
+            "type": "dropdowninput",
+            "content": {
+                "label": "Input Label",
+                "options": "{\n  \"0\": \"0\",\n  \"1\": \"1\",\n  \"2\": \"2\",\n  \"3\": \"3\"\n}"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "c2519671-9ce7-44e7-ba4e-b0efda9cb20e",
+            "handlers": {
+                "wf-option-change": "update"
+            },
+            "binding": {
+                "eventType": "wf-option-change",
+                "stateRef": "seleccion"
+            }
+        },
+        "d3jvbeh85dfaeqdb": {
+            "id": "d3jvbeh85dfaeqdb",
+            "type": "plotlygraph",
+            "parentId": "28d3885b-0fb8-4d41-97c6-978540015431",
+            "content": {
+                "spec": "@{grafico}"
+            },
+            "handlers": {},
+            "position": 1
+        }
+    }
+}
