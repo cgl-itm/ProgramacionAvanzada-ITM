@@ -19,13 +19,16 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 |      13         |   Series de Tiempo con Pandas. Dashboard Writer  |   [Writer App](https://dev.writer.com/framework/introduction)   |
 |      14         |   Ejercicios Writer  |      |
 
-## Cursos básicos de Python
-* Aprende Python - Curso de Python desde Cero [Curos 1](https://www.youtube.com/watch?v=DLikpfc64cA) y [Curso 2](https://www.youtube.com/watch?v=rfscVS0vtbw).
+## Cursos con certificacion gratuita
+* [Fundamentos de Python](https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL)
 * [Python for Everybody](https://www.py4e.com/) con certificado gratis. Para mas cursos certificados en [FreeCodeCamp](https://www.freecodecamp.org/espanol/).
 * Learn Python - [CodeAcademy](https://www.codecademy.com/learn/learn-python) 
+  
+## Cursos básicos de Python
+* YouTube - Aprende Python - Curso de Python desde Cero [Curso 1](https://www.youtube.com/watch?v=DLikpfc64cA) y [Curso 2](https://www.youtube.com/watch?v=rfscVS0vtbw).
 * Logica de Programacion - [MoureDev](https://www.youtube.com/watch?v=TdITcVD64zI)
-* [Fundamentos Python](https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL) Con certificado gratis.
 * [Aprende Python - Ejemplos Visuales](https://aprendepython.es/)
+
 ## Tutoriales sobre Numpy
 * [Numpy Tutorial for Beginners - Youtube](https://www.youtube.com/watch?v=QUT1VHiLmmI) 
 * [Numpy Tutorial - Youtube](https://www.youtube.com/watch?v=rN0TREj8G7U)  
