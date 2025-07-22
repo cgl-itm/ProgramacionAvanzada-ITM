@@ -45,7 +45,9 @@ Materiales para el curso de Programación Avanzada del Instituto Tecnológico Me
 [Diario Python](https://pythondiario.com/ejercicios-de-programacion-python) <br>
 
 ## Libros online
-[Documentacion oficial](https://docs.python.org/3/contents.html) <br>
-[El libro de Python](https://ellibrodepython.com/) <br>
-[Python Programming and Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)<br>
-[Python para principiantes](https://uniwebsidad.com/libros/python) 
+* [Documentacion oficial](https://docs.python.org/3/contents.html)
+* [El libro de Python](https://ellibrodepython.com/)
+* [Python Programming and Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+* [Python para principiantes](https://uniwebsidad.com/libros/python) 
+* [Think Python](https://allendowney.github.io/ThinkPython/)
+
